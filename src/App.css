@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #414a4e;
+  background: url("https://images-ext-1.discordapp.net/external/646raGKA70fK1jgF01snFfnODUMTE66tLVykC4g_8sQ/https/img.wallpapersafari.com/desktop/1680/1050/42/66/DxzrVf.png?width=1082&height=676");
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,6 +11,7 @@ body {
   padding: 50px;
   line-height: 1;
   font-family: "Patrick Hand", sans-serif;
+  background-size: 100%;
 }
 .Score {
   text-align: left;
@@ -27,6 +28,11 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
   margin-right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ScoreTwo:hover {
+  opacity: 50%;
 }
 p {
   text-align: right;
@@ -68,7 +74,7 @@ p strong {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: 0.5s cubic-bezier(0.38, 0.02, 0.09, 1.66) all;
+  transition: 3s cubic-bezier(0.38, 0.02, 0.09, 1.66) all;
 }
 
 .card-card .front,
@@ -91,14 +97,16 @@ p strong {
 }
 
 .card-card .back {
-  background: #51dce0;
+  background: url("https://images-ext-2.discordapp.net/external/NhpGH_59PRZNmJXZdYrPHmnIDgqZkpqCBM7DHELMQF4/https/i.pinimg.com/236x/2f/36/3d/2f363dbc64253af700abfe675c7e38d9--poker-night-card-deck.jpg");
   color: #d6aeb5;
   font-size: 100px;
   transition: 0.3s ease all;
+  background-size: 100%;
 }
-
+/* #51dce0; */
 .card-card .back:hover {
   background: #4b4c72;
   color: #fff;
   transform: scale(1.02);
+  opacity: 0.5;
 }
